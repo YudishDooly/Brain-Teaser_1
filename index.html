@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Brain Teaser</title>
+        <link rel="stylesheet" href="jquery.mobile-1.4.5.css">
+    	<script src="jquery.js"></script>
+    	<script src="jquery.mobile-1.4.5.js"></script>
+		
+		
+		<style>
+		
+		video {
+               max-width: 100%;
+               height: auto;
+               }
+
+		
+		</style>
+		
+		
+		
+    </head>
+	
+	<body>
+	
+	
+	
+<div data-role="page" id="home" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+  </div>
+<h4><p align="center">This is a brain teaser game</p></h4>
+
+</div>
+
+
+	<div data-role="page" id="brain" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+ 
+ <br/>
+ <br/>
+ 
+ <a href="#Stage1" class="ui-btn">Stage 1</a>
+ <a href="#Stage2" class="ui-btn">Stage 2</a>
+ 
+ </div>	 
+		 
+<div data-role="page" id="Stage1" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ 
+ <h3>Long long ago, there was a king. He wanted to marry his daughter. There were 3 candidates: a knight, a knave, and a commoner. The knight always spoke the truth and the knave always lied. However, the commoner could do either. He used to lie sometimes and tell the truth some other times. The king did not know which one is which. On top of that, the candidates did not know each other. King wanted to, by all means, avoid marrying his daughter to the commoner. The king asked one yes/no question to each other and found a suitable candidate for his daughter. What question did he asked.</h3>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns1()">Validate Answer</button>
+<br/>
+<h5 id="ans11"></h5>
+<h5 id="ans110"></h5>
+<h5 id="ans12"></h5>
+<h5 id="ans13"></h5>
+<h5 id="ans14"></h5>
+<h5 id="ans15"></h5>
+<a href="#Question2" class="ui-btn">NEXT</a>
+
+</div>
+		 
+		 
+<div data-role="page" id="Question2" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ 
+ <h3>One fine day, you find yourself dead. You start your journey in search of eternal peace and happiness or in other words, you start your journey to search for heaven. After traveling for a long long time, you came across a huge gate. One of the path leads to heaven and the other one leads to hell. Two guardians are guarding the gate.one of them is an angel and another is a demon. Angel always speaks the truth and the demon always lies. You are supposed to ask only one question to only one of the guardian. Clearly, you want to go to heaven, so you would try to ask which path would go to heaven. However, given the constraint that you can ask only one question, how would you frame the question??</h3>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns2()">Validate Answer</button>
+<br/>
+<h5 id="ans21"></h5>
+
+
+<a href="#Question3" class="ui-btn">NEXT</a>		 
+		 
+</div>	 
+		 
+	
+<div data-role="page" id="Question3" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ 
+ <h3>You receive a letter in the mail. It is either a rejection letter or an acceptance letter to a medical school. It is Friday and you have a great weekend planned. How is it possible to find out the contents of the letter only if it is good news?</h3>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns3()">Validate Answer</button>
+<br/>
+<h5 id="ans31"></h5>
+<h5 id="ans32"></h5>
+<h5 id="ans33"></h5>
+
+
+
+<a href="#Question4" class="ui-btn">NEXT</a>		 
+		 
+</div>	 	
+		 
+	
+<div data-role="page" id="Question4" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ 
+ <h3>Sherlock, A detective who was mere days from cracking an international smuggling ring has suddenly gone missing. While inspecting his last-known location, you find a note:</h3>
+<h2>710 57735 34 5508 51 7718</h2>
+<h3>Currently there are 3 suspects: Bill, John, and Todd. Can you break the detective’s code and find the criminal’s name?</h3>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns4()">Validate Answer</button>
+<br/>
+<h3 id="ans41"></h3>
+<h4 id="ans42"></h4>
+
+<a href="#Question5" class="ui-btn">NEXT</a>		 
+		 
+</div>	
+
+
+<div data-role="page" id="Question5" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ 
+<h3>There is a barrel with no lid and some wine in it. “This barrel of wine is more than half full”, says Mark. “No, it’s not”, says Steve. “It’s less than half full.” They do not have any measuring instruments with them. They cannot remove any wine from the Barrel. How can they determine who is correct Satisfying the above conditions?</h3>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns5()">Validate Answer</button>
+<br/>
+<h3 id="ans51"></h3>
+
+
+<a href="#Question6" class="ui-btn">NEXT</a>		 
+		 
+</div>
+		 
+
+<div data-role="page" id="Question6" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ 
+<h3>King Charles want to send the diamond ring to his girlfriend securely. He got multiple locks and their corresponding keys. His girlfriend does not have any keys to these locks and if he send the key without a lock, the key can be copied in the way. How can Charles send the ring to his girlfriend securely?</h3>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns6()">Validate Answer</button>
+<br/>
+<h3 id="ans61"></h3>
+<h3 id="ans62"></h3>
+
+
+<a href="#Question7" class="ui-btn">NEXT</a>		 
+		 
+</div>	
+
+
+<div data-role="page" id="Question7" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ 
+<h3>Alexander is stranded on an island covered in forest. One day, when the wind is blowing from the west, lighting strikes the west end of the island and sets fire to the forest. The fire is very violent, burning everything in its path, and without intervention the fire will burn the whole island, killing the man in the process. There are cliffs around the island, so he cannot jump off. How can Alexander survive the fire? 
+(There are no buckets or any other means to put out the fire)
+</h3>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns7()">Validate Answer</button>
+<br/>
+<h3 id="ans71"></h3>
+<h3 id="ans72"></h3>
+<h3 id="ans73"></h3>
+
+
+<a href="#Question8" class="ui-btn">NEXT</a>		 
+		 
+</div>	 
+
+
+<div data-role="page" id="Question8" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ 
+<h3>One snowy night, Sherlock Holmes was in his house sitting by a fire. All of a sudden a snowball came crashing through his window, breaking it. Holmes got up and looked out the window just in time to see three neighborhood kids who were brothers run around a corner. Their names were John Crimson, Mark Crimson, and Paul Crimson. The next day Holmes got a note on his door that read “? Crimson. He broke your window.” Which of the three Crimson brothers should Sherlock Holmes question about the incidents?</h3>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns8()">Validate Answer</button>
+<br/>
+<h3 id="ans81"></h3>
+<h4 id="ans82"></h4>
+
+
+
+<a href="#Question9" class="ui-btn">NEXT</a>		 
+		 
+</div>	
+		 
+	
+	
+<div data-role="page" id="Question9" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ 
+<h3>A man is travelling with a fox and two chicken. If he leaves the fox alone with the chicken, the fox will eat the chicken. He arrives at a river and needs to cross it. He finds a boat that can carry himself and only one animal. how does he cross the river along with his animal safely.</h3>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns9()">Validate Answer</button>
+<br/>
+<h3 id="ans91"></h3>
+<h3 id="ans92"></h3>
+<h3 id="ans93"></h3>
+<h3 id="ans94"></h3>
+
+
+
+
+<a href="#brain" class="ui-btn">NEXT</a>		 
+		 
+</div>	
+
+
+		 
+<div data-role="page" id="Stage2" data-theme="a">
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ <h3><p align="center">Please watch the video carefully</p></h3>
+ <br/>
+ 
+ <p align="center"><video width="500" height="300" align="center" controls>
+  <source src="video1.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video></p>
+ 
+<br/>
+<h4><p align="center">So according to you, what is the digit code? </p></h4>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns10()">Validate Answer</button>
+<br/>
+<h3 id="v1"></h3>
+<h3 id="v2"></h3>
+<br/>
+<a href="#VidQ2" class="ui-btn">NEXT</a>	
+
+</div>		 
+		
+
+
+<div data-role="page" id="VidQ2" data-theme="a">
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ <h3><p align="center">Please watch the video carefully</p></h3>
+ <br/>
+ 
+ <p align="center"><video width="500" height="300" align="center" controls>
+  <source src="video3.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video></p>
+ 
+<br/>
+<h4><p align="center">So, who is the criminal?</p></h4>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns11()">Validate Answer</button>
+<br/>
+<h3 id="v3"></h3>
+<h3 id="v4"></h3>
+<br/>
+<a href="#VidQ3" class="ui-btn">NEXT</a>	
+
+</div>	
+
+
+
+<div data-role="page" id="VidQ3" data-theme="a">
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ <h3><p align="center">Please watch the video carefully</p></h3>
+ <br/>
+ 
+ <p align="center"><video width="500" height="300" align="center" controls>
+  <source src="video4.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video></p>
+ 
+<br/>
+<h4><p align="center">So, who is the girl from the party?</p></h4>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns12()">Validate Answer</button>
+<br/>
+<h3 id="v5"></h3>
+<h3 id="v6"></h3>
+<br/>
+<a href="#VidQ4" class="ui-btn">NEXT</a>	
+
+</div>	
+
+
+
+<div data-role="page" id="VidQ4" data-theme="a">
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ <h3><p align="center">Please watch the video carefully</p></h3>
+ <br/>
+ 
+ <p align="center"><video width="500" height="300" align="center" controls>
+  <source src="video5.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video></p>
+ 
+<br/>
+<h4><p align="center">So, who is the Kidnapper?</p></h4>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns13()">Validate Answer</button>
+<br/>
+<h3 id="v7"></h3>
+<h3 id="v8"></h3>
+<br/>
+<a href="#VidQ5" class="ui-btn">NEXT</a>	
+
+</div>	
+		 
+		 
+<div data-role="page" id="VidQ5" data-theme="a">
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+  <br/>
+ <br/>
+ <h3><p align="center">Please watch the video carefully</p></h3>
+ <br/>
+ 
+ <p align="center"><video width="500" height="300" align="center" controls>
+  <source src="video6.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video></p>
+ 
+<br/>
+<h4><p align="center">So, who is the Kidnapper?</p></h4>
+<br/>
+<textarea placeholder="Answer in this box"></textarea>
+<br/>
+<button onclick="ShowAns14()">Validate Answer</button>
+<br/>
+<h3 id="v9"></h3>
+<h3 id="v10"></h3>
+<br/>
+<a href="#brain" class="ui-btn">NEXT</a>	
+
+</div>		 
+		 
+		 
+<div data-role="page" id="help" data-theme="a">
+
+<div data-role="header">
+<h1>Brain Teaser</h1>
+</div>
+<div data-role="navbar">
+  <ul>
+     <li><a href="#home" data-icon="home">Home</a></li>
+     <li><a href="#brain" data-icon="grid">Play</a></li>
+     <li><a href="#help" data-icon="info">Help</a></li>
+  </ul>
+ </div>
+ 
+ <br/>
+ <br/>
+ 
+ <h3><p align="center">Answer all the questions correctly</p></h3>
+ 
+ </div>	 		 
+	
+
+
+
+
+<script>
+function ShowAns1() { 
+  document.getElementById("ans11").innerHTML = "Well the important thing to note here is that the king did not know which one is commoner.Even if he could establish that someone was not a commoner that would do the trick for him.So he asked:";
+  document.getElementById("ans110").innerHTML = "Are you a commoner?";
+  document.getElementById("ans12").innerHTML = "Knight: No";                    
+  document.getElementById("ans13").innerHTML = "Knave: Yes";
+  document.getElementById("ans14").innerHTML = "Commoner: Yes/No";
+  document.getElementById("ans15").innerHTML = "With this question, the king made the knight and knave answer differently.Irrespective of what the commoner would answer, he knew that the person in the minority was either a knave(1-yes and 2-no) or a knight(1-no and 2-yes).";   
+                    }  
+ 
+function ShowAns2() { 
+  document.getElementById("ans21").innerHTML = "The question you would ask is: 'If I ask the other guard about which side leads to heaven, what would he answer?' It should be fairly easy to see that irrespective of whom do you ask this question, you will always get an answer which leads to hell. So you can choose the other path which leads to heaven.";
+                     }
+					 
+function ShowAns3() { 
+  document.getElementById("ans31").innerHTML = "Ask a friend to open the letter";
+  document.getElementById("ans32").innerHTML = "If it is good news, tell him to flip a coin and tell you the good news if head comes up, otherwise if tail shows up, he should tell you nothing.";
+  document.getElementById("ans33").innerHTML = "If it is bad news, he should not tell you anything at all.";
+                     }
+					 
+function ShowAns4() { 
+  document.getElementById("ans41").innerHTML = "Bill";
+  document.getElementById("ans42").innerHTML = "If you read the message upside down, you will notice that the numbers ressemble like aplphabets and those aphabets form a sentence: 'BILL IS BOSS HE SELLS OIL'";
+                     }
+			
+function ShowAns5() { 
+  document.getElementById("ans51").innerHTML = "Lean the barrel to the side.If the liquid reaches the top of the barrel before it reaches the bottom edge, it is more than half full. If you are able to see the bottom, it is less than half full.";
+                     }
+					 
+function ShowAns6() { 
+  document.getElementById("ans61").innerHTML = "Charles put the ring into the box, secure it with one of his locks, and send the box to the girlfriend.";
+  document.getElementById("ans62").innerHTML = "She should then attach one of her locks and send it back to him. When Charles receive the the box, he should then use the lock of his girlfriend and send it back to her. His girlfriend can now unlock the gift.";                   
+					 }
+					 
+function ShowAns7() { 
+  document.getElementById("ans71").innerHTML = "Alexander picks up a piece of wood and lights it from the fire on the west end of the island.";
+  document.getElementById("ans72").innerHTML = "He then quickly carries it near the east end of the island and starts a new fire. The wind will cause that fire to burn out the eastern end and he can then shelter in the burnt area";
+  document.getElementById("ans73").innerHTML = "He then quickly carries it near the east end of he island and starts a new fire. The wind will cause that fire to burn out the eastern end and he can then shelter in the burnt area";
+                     }
+					 
+function ShowAns8() { 
+  document.getElementById("ans81").innerHTML = "Mark Crimson";
+  document.getElementById("ans82").innerHTML = "'?' = Question MARK, so the note on the door reads 'Question MARK Crimson. He broke the window.'";                   
+					 }
+					 
+function ShowAns9() { 
+  document.getElementById("ans91").innerHTML = "First he should take the fox across and return alone.";
+  document.getElementById("ans92").innerHTML = "Then he should take one chicken and return along with the fox.";  
+  document.getElementById("ans93").innerHTML = "Then he should leave the fox and take the other chicken across and return alone";  
+  document.getElementById("ans94").innerHTML = "At last, he should take the fox and cross the river.";
+					 }
+					 
+function ShowAns10() { 
+  document.getElementById("v1").innerHTML = "The answer is 4";
+  document.getElementById("v2").innerHTML = "Look carefully how many times the lines intersects.";
+                    }
+					
+function ShowAns11() { 
+  document.getElementById("v3").innerHTML = "The answer is number 3";
+  document.getElementById("v4").innerHTML = "Evryone is dressed as an original character except number 3. He is wearing a skull mask, a vampire cape and hulk's short.";
+                    }
+					
+function ShowAns12() { 
+  document.getElementById("v5").innerHTML = "Natalie";
+  document.getElementById("v6").innerHTML = "The girl from the party did not have a birthmark or freckles.";
+                    }
+					
+function ShowAns13() { 
+  document.getElementById("v7").innerHTML = "It is the girl with the lollipop";
+  document.getElementById("v8").innerHTML = "The man's hand is full with bags and the girl with the ice cream had already taken a bite from her ice cream. The second girl coulad have easily lured the child with the lollipop.";
+                    }
+					
+function ShowAns14() { 
+  document.getElementById("v9").innerHTML = "The man was smuggling bicycles.";
+                    }
+
+					 
+</script>
+
+
+
+</body>
+</html>	
+		 
